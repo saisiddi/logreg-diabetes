@@ -1,0 +1,24 @@
+# virtualenv
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# downloaded dataset cache -- data_utils.py re-fetches it on first run
+# (source URL is documented in README.md)
+data/
+
+# test / run logs
+m9_launch.log
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

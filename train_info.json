@@ -1,0 +1,51 @@
+{
+  "trained_at": "2026-08-31T07:17:59+00:00",
+  "data_source": "remote",
+  "is_synthetic": false,
+  "n_train": 614,
+  "n_test": 154,
+  "max_iter": 1000,
+  "n_iter_": 8,
+  "solver": "lbfgs",
+  "random_state": 42,
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "imputer_medians": {
+    "Pregnancies": 3.0,
+    "Glucose": 117.0,
+    "BloodPressure": 72.0,
+    "SkinThickness": 29.0,
+    "Insulin": 125.0,
+    "BMI": 32.4,
+    "DiabetesPedigreeFunction": 0.3825,
+    "Age": 29.0
+  },
+  "scaler_mean": {
+    "Pregnancies": 3.8192182410423454,
+    "Glucose": 121.67100977198697,
+    "BloodPressure": 72.1400651465798,
+    "SkinThickness": 29.042345276872965,
+    "Insulin": 137.70521172638436,
+    "BMI": 32.44820846905537,
+    "DiabetesPedigreeFunction": 0.477428338762215,
+    "Age": 33.36644951140065
+  },
+  "scaler_scale": {
+    "Pregnancies": 3.311448216586372,
+    "Glucose": 29.979350764655706,
+    "BloodPressure": 12.2651192609104,
+    "SkinThickness": 8.884611281688818,
+    "Insulin": 78.70059996835236,
+    "BMI": 6.81856216148434,
+    "DiabetesPedigreeFunction": 0.33003119077476745,
+    "Age": 11.82379790254742
+  }
+}
